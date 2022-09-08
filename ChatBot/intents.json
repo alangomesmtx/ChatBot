@@ -1,0 +1,63 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, how may i help you?", "Hi, good to see you."],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Hope I could help you."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you...", "Please give me more info...", "Not sure I understand...", "Please type the required details..."],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered", "help", "help me"],
+         "responses": ["I can guide you through the Admission Process of VIT", "Offering guidance for Admission in VIT"],
+         "context": [""]
+        },
+        {"tag": "courses",
+         "patterns": ["What courses are offered?", "Which courses can i apply for?", "Which fields are available?", "How many courses are offered?", "How many courses are available"],
+         "responses": ["Navigating to Courses Page..."],
+         "context": [""]
+        },
+        {"tag": "courses_page",
+         "patterns": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+         "responses": ["Navigating to Course Details..."],
+         "context": [""]
+        },
+        {"tag": "admission_process",
+         "patterns": ["How to join VIT?", "How to take admission?", "How to take course?"],
+         "responses": ["Dear Student, you have to appear for a National level Entrance Exam called VITEEE. You will be allotted a rank on the basis of your marks. Later, councelling will be held, and you will be able to choose your course on the basis of your rank."],
+         "context": [""]
+        },
+        {"tag": "campus",
+         "patterns": ["How is the campus?", "How big is the college?", "What is the size of the college?", "How big campus?", "How large campus?", "Size of campus?"],
+         "responses": ["Campus is 192 acres large."],
+         "context": [""]
+        },
+        {"tag": "hostel and mess",
+         "patterns": ["how is hostel and mess?", "mess and hostel details", "about hostel and mess"],
+         "responses": ["Navigating to hostel and mess page."],
+         "context": [""]
+        },
+        {"tag": "hostel_mess_pricing",
+         "patterns": ["There are 4 types of rooms for freshers and 8 types for all seniors. The pricing for the same are giving below."],
+         "responses": ["Navigating to hostel and mess pricing page."],
+         "context": ["hostel_mess_pricing_page"]
+        },
+        {"tag": "contact_details",
+         "patterns": ["Contact details", "Contact number", "phone number", "email id", "mail id", "mail details", "can i have your mails details?"],
+         "responses": ["Navigating to Contact Details' Page..."],
+         "context": ["contact_details"]
+        }
+   ]
+}
